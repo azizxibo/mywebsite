@@ -41,9 +41,9 @@ location = st.text_input("Masukkan Lokasi Pernikahan", "Contoh: Gedung Serba Gun
 # Pilihan template
 st.subheader("Pilih Template Latar Belakang")
 template_options = {
-    "Template 1": "template1.jpg",
-    "Template 2": "template2.jpg",
-    "Template 3": "template3.jpg",
+    "Template 1": "template1.jpeg",
+    "Template 2": "template2.jpeg",
+    "Template 3": "template3.jpeg",
 }
 selected_template = st.selectbox("Pilih Template", list(template_options.keys()))
 template_path = template_options[selected_template]
