@@ -9,7 +9,7 @@ def generate_invitation(template_path, names, date, location):
     draw = ImageDraw.Draw(template)
 
     # Menentukan font
-    font_path = "arial.ttf"  # Sesuaikan dengan path font yang ada di sistem Anda
+    font_path = "closefont.ttf"  # Sesuaikan dengan path font yang ada di sistem Anda
     try:
         font_title = ImageFont.truetype(font_path, 40)
         font_body = ImageFont.truetype(font_path, 30)
